@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from halo device
-$(call inherit-product, device/lenovo/halo/device.mk)
+# Inherit from l71091 device
+$(call inherit-product, device/lenovo/l71091/device.mk)
 
-PRODUCT_DEVICE := halo
-PRODUCT_NAME := omni_halo
+PRODUCT_DEVICE := l71091
+PRODUCT_NAME := omni_l71091
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo L71091
 PRODUCT_MANUFACTURER := lenovo
@@ -24,6 +24,6 @@ PRODUCT_MANUFACTURER := lenovo
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="halo-user 12 SKQ1.220519.001 14.0.697_221216 release-keys"
+    PRIVATE_BUILD_DESC="l71091-user 12 SKQ1.220519.001 14.0.697_221216 release-keys"
 
-BUILD_FINGERPRINT := Lenovo/halo/halo:12/SKQ1.220519.001/14.0.697_221216:user/release-keys
+BUILD_FINGERPRINT := Lenovo/l71091/l71091:12/SKQ1.220519.001/14.0.697_221216:user/release-keys

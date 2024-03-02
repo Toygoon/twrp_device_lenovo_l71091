@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_halo.mk
+    $(LOCAL_DIR)/omni_l71091.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_halo-user \
-    omni_halo-userdebug \
-    omni_halo-eng
+    omni_l71091-user \
+    omni_l71091-userdebug \
+    omni_l71091-eng

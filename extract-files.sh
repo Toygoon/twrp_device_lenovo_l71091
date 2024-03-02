@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=halo
+DEVICE=l71091
 VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks

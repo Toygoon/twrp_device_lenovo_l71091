@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lenovo/halo
+DEVICE_PATH := device/lenovo/l71091
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -49,8 +49,8 @@ TARGET_SCREEN_DENSITY := 480
 BOARD_BOOTIMG_HEADER_VERSION := 4
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := halo_defconfig
-TARGET_KERNEL_SOURCE := kernel/lenovo/halo
+TARGET_KERNEL_CONFIG := l71091_defconfig
+TARGET_KERNEL_SOURCE := kernel/lenovo/l71091
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

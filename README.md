@@ -1,4 +1,4 @@
-# Android device tree for Lenovo Lenovo L71091 (halo)
+# Android device tree for Lenovo Lenovo L71091 (l71091)
 
 ```
 #
